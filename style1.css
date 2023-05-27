@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #030303;
+}
+.main-container{
+    width: 100%;
+  position: relative;
+    height: 100vh;
+ 
+}
+.header{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    color: antiquewhite;
+    border-bottom: 2px solid white;
+}
+.profile{
+    display: flex;
+    justify-content: space-between; 
+}
+h2{
+  color: white;
+  position: absolute;
+  margin-left: 190px;
+  margin-top: 40px;
+}
+#name{
+    padding: 10px;
+    width: 60%;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+   
+    margin-left: 190px;
+    margin-top: 100px;
+    background: #000;
+   border: none;
+   outline: none;
+   
+   }
+   #email{
+    padding: 10px;
+    width: 60%;
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 180px;
+    background: #000;
+    color: white;
+    font-size: 25px;
+   border: none;
+   outline: none;
+   
+   }
+     #password{
+        padding: 10px;
+        width: 60%;
+        position: absolute;
+        margin-left: 190px;
+        margin-top: 250px;
+        color: white;
+        font-size: 25px;
+        background: #000;
+       border: none;
+       outline: none;
+       
+   } 
+ 
+   #confirm{
+    padding: 10px;
+    width: 60%;
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 320px;
+    color: white;
+    font-size: 25px;
+    background: #000;
+   border: none;
+   outline: none;
+   
+   }
+   #btn{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 360px;
+    padding: 10px 15px;
+   }
+   .main{
+    display: block;
+   }
